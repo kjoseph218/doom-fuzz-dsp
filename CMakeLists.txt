@@ -91,7 +91,9 @@ endif()
 juce_add_plugin(
   AudioPlugin
   COMPANY_NAME
-  "MyCompany" # change this
+  "Deep Blue Audio Labs" # change this
+  BUNDLE_ID
+  "com.deepblueaudiolabs.fuzzdoom"
   IS_SYNTH
   FALSE # may change this
   NEEDS_MIDI_INPUT
@@ -99,16 +101,16 @@ juce_add_plugin(
   NEEDS_MIDI_OUTPUT
   FALSE # may change this
   PLUGIN_MANUFACTURER_CODE
-  Mcmp # change this (for max compatibility, first letter must be uppercase, remaining lowercase)
+  Dbal # change this (for max compatibility, first letter must be uppercase, remaining lowercase)
   PLUGIN_CODE
-  Expl # change this (for max compatibility, first letter must be uppercase, remaining lowercase)
+  Dfzd # change this (for max compatibility, first letter must be uppercase, remaining lowercase)
   FORMATS
   AAX
   AU
   Standalone
   VST3
   PRODUCT_NAME
-  "YourPluginName" # change this
+  "Fuzz Doom" # change this
   VERSION
   0.0.0 # 0.0.0 forces AU host to always rescan the plugin. Change this before releasing
   COPY_PLUGIN_AFTER_BUILD
